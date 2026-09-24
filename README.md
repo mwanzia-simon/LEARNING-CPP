@@ -1,4 +1,4 @@
-# C++ Learning Journey 🚀
+# C++ Learning Journey 
 
 Welcome to my C++ learning repository!
 
@@ -6,7 +6,7 @@ I'm using this repository to document my journey as I learn **C++**, mainly focu
 
 The goal is to learn by writing code, experimenting with concepts, building small programs, and documenting my progress along the way.
 
-## 📚 What I'm Learning
+##  What I'm Learning
 
 ### C++ Fundamentals
 
@@ -46,7 +46,7 @@ The goal is to learn by writing code, experimenting with concepts, building smal
 * Memory management
 * Data structures and algorithms
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 cpp-learning/
@@ -70,14 +70,14 @@ cpp-learning/
 
 The structure may change as I learn more and discover better ways to organize the repository.
 
-## 🛠️ Tools
+##  Tools
 
 * **Language:** C++
 * **Compiler:** g++
 * **Editor:** Visual Studio Code
 * **Version Control:** Git & GitHub
 
-## 📈 Progress
+##  Progress
 
 This repository is a work in progress.
 
@@ -96,14 +96,14 @@ I'm documenting the journey from the basics of C++ to more advanced concepts and
 * [ ] Data structures
 * [ ] C++ projects
 
-## 🎯 Goal
+##  Goal
 
 The main goal isn't just to learn the syntax of C++.
 
 I want to understand how C++ works, strengthen my understanding of **Object-Oriented Programming**, improve my problem-solving skills, and eventually use C++ to build meaningful projects.
 
-> **Learning in public, one commit at a time. 🚀**
+> **Learning in public, one commit at a time.**
 
 ---
 
-⭐ If you find this repository useful, feel free to explore it.
+ If you find this repository useful, feel free to explore it.
