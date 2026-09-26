@@ -1,7 +1,7 @@
 #include <iostream>
-
+// This is a comment
 int main()
 {
-    std::cout << "hello world!";
+    std::cout << "Hello, world!";
     return 0;
 }
