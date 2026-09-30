@@ -60,8 +60,6 @@ int main()
     Product product1;
     Product product2;
     Product product3;
-
-    
     product1.setProductCode("P001");
     product1.setProductName("Laptop");
     product1.setPrice(75000);
@@ -75,7 +73,6 @@ int main()
     product3.setPrice(5000);
 
     cout << "===== PRODUCT DETAILS =====" << endl;
-
     cout << "\nProduct 1" << endl;
     cout << "Code: " << product1.getProductCode() << endl;
     cout << "Name: " << product1.getProductName() << endl;
