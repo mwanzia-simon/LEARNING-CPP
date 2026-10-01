@@ -12,7 +12,7 @@ public:
         name = studentName;
     }
 
-    // Setter for marks with validation
+    // Setter for marks with validation 
     void setMarks(int studentMarks) {
         if (studentMarks >= 0 && studentMarks <= 100) {
             marks = studentMarks;
