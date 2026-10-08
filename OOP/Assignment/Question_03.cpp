@@ -12,11 +12,16 @@
 #include <iostream>
 using namespace std;
 
-class Book{
-
+class Book
+{
+private:
+    int bookID;
+    string bookTitle;
+    string author;
 };
 
-int main() {
+int main()
+{
     cout << "Hello, World!" << endl;
     return 0;
 }
