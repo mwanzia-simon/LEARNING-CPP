@@ -35,6 +35,20 @@ public:
         bookTitle = title;
         author = a;
     }
+
+    // Member function to display book details
+    void displayDetails()
+    {
+        cout << "Book ID: " << bookID << endl;
+        cout << "Book Title: " << bookTitle << endl;
+        cout << "Author: " << author << endl;
+    }
+
+    // Destructor function
+    ~Book()
+    {
+        cout << "Book object destroyed" << endl;
+    }
 };
 
 int main()
