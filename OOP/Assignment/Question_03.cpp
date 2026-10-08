@@ -27,6 +27,14 @@ public:
         bookTitle = "Unknown";
         author = "Unknown";
     }
+
+    // Paramitized constructor
+    Book(int id, string title, string a)
+    {
+        bookID = id;
+        bookTitle = title;
+        author = a;
+    }
 };
 
 int main()
