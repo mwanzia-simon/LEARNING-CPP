@@ -20,32 +20,41 @@ class Employee
 private:
     int employeeID;
     string employeeName;
-    int salary;
+    double salary;
 
 public:
     // Constuctor
-    Employee(int id, string name, int s)
+    Employee(int id, string name, double s)
     {
         employeeID = id;
         employeeName = name;
-        salary = s;
+
+        if (s >= 0)
+        {
+
+            salary = s;
+        }
+        else
+        {
+            salary = 0;
+        }
     };
 
     // Salary setter function
     void setSalary(int s)
     {
-        if (s < 0)
+        if (s >= 0)
         {
-            cout << "salary cannot be set to a negative value!" << endl;
+            salary = s;
         }
         else
         {
-            salary = s;
+            cout << "salary cannot be set to a negative value!" << endl;
         }
     }
 
     // Salary getter function
-    int getSalary()
+    double getSalary()
     {
         return salary;
     }
@@ -53,6 +62,6 @@ public:
 
 int main()
 {
-    Employee employee1(100,"simon",20000);
+    Employee employee1(100, "simon", 20000);
     return 0;
 }
