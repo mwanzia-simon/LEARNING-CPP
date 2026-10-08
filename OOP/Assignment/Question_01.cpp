@@ -46,6 +46,8 @@ public:
 
 int main()
 {
-    cout << "Hello, World!" << endl;
+    Student student1(101, "simon", "IT", 20);
+
+    student1.displayDetails();
     return 0;
 }
