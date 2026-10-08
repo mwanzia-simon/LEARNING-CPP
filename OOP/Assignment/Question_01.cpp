@@ -32,6 +32,16 @@ public:
         course = course;
         age = a;
     }
+
+    // Member function
+    void displayDetails()
+    {
+        cout << "studentID: " << studentID << endl;
+        cout << "studentName: " << studentName << endl;
+        cout << "course: " << course << endl;
+        cout << "age: " << age << endl;
+        cout << "--------------------------------" << endl;
+    }
 };
 
 int main()
