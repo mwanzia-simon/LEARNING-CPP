@@ -29,7 +29,7 @@ public:
     {
         studentID = id;
         studentName = name;
-        course = course;
+        course = c;
         age = a;
     }
 
