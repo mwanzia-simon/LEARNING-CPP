@@ -30,6 +30,25 @@ public:
         employeeName = name;
         salary = s;
     };
+
+    // Salary setter function
+    void setSalary(int s)
+    {
+        if (s < 0)
+        {
+            cout << "salary cannot be set to a negative value!" << endl;
+        }
+        else
+        {
+            salary = s;
+        }
+    }
+
+    // Salary getter function
+    int getSalary()
+    {
+        return salary;
+    }
 };
 
 int main()
