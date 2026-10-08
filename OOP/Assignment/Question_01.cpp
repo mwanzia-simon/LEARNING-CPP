@@ -16,6 +16,22 @@
 #include <iostream>
 using namespace std;
 
+class Student{
+    private:
+        int studentID;
+        string studentName;
+        string course;
+        int age;
+
+    public:
+
+    // Paramitized constructor 
+            Student(){
+                
+            }
+
+};
+
 int main() {
     cout << "Hello, World!" << endl;
     return 0;
