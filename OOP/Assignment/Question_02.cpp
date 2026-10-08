@@ -63,5 +63,16 @@ public:
 int main()
 {
     Employee employee1(100, "simon", 20000);
+
+    // getting the current salary
+    cout << "Current salary: " << employee1.getSalary() << endl;
+
+    // Modifying the salary
+    employee1.setSalary(100000);
+
+    // Getting the updated salary
+    cout << "Updated salary: " << employee1.getSalary() << endl;
+
+    // Se
     return 0;
 }
