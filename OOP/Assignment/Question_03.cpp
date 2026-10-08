@@ -42,6 +42,7 @@ public:
         cout << "Book ID: " << bookID << endl;
         cout << "Book Title: " << bookTitle << endl;
         cout << "Author: " << author << endl;
+        cout << "------------------------------" << endl;
     }
 
     // Destructor function
@@ -53,6 +54,10 @@ public:
 
 int main()
 {
-    cout << "Hello, World!" << endl;
+    Book book1;
+    Book book2(101, "C++ Programming", "Bjarne Stroustrup");
+
+    book1.displayDetails();
+    book2.displayDetails();
     return 0;
 }
