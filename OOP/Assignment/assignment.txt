@@ -1,0 +1,48 @@
+OBJECT-ORIENTED PROGRAMMING (OOP)
+Class Practical Exercise
+Topics Covered: Introduction to OOP, Classes and Objects, Encapsulation, Constructors, Destructors, Getters and Setters, and Member Functions.
+Question 1: Classes and Objects (10 Marks)
+A university wants to develop a simple system for managing student information.
+Write a C++ program that creates a class named Student with the following attributes:
+- studentID
+- studentName
+- course
+- age
+Tasks:
+a) Define the Student class with appropriate data types. (2 marks)
+b) Create a parameterized constructor to initialize the student attributes. (2 marks)
+c) Create a member function named displayDetails() to display student information. (2 marks)
+d) Create three student objects with different details. (3 marks)
+e) Call the displayDetails() function for each object. (1 mark)
+Question 2: Encapsulation and Information Hiding (10 Marks)
+A company wants to develop a system for managing employee salaries.
+Create a C++ class named Employee containing:
+- employeeID
+- employeeName
+- salary
+Tasks:
+a) Declare all attributes as private. (2 marks)
+b) Create a constructor to initialize the employee attributes. (2 marks)
+c) Implement setSalary() and getSalary() methods. (2 marks)
+d) Ensure that the salary cannot be set to a negative value. (2 marks)
+e) Create an employee object and demonstrate how the salary can be accessed and modified using getters and setters. (2 marks)
+Question 3: Constructors and Destructors (5 Marks)
+Create a C++ class named Book with the following attributes:
+- bookID
+- bookTitle
+- author
+Tasks:
+a) Create a default constructor that initializes the attributes with default values. (1 mark)
+b) Create a parameterized constructor that accepts values for all attributes. (2 marks)
+c) Create a destructor that displays the message "Book object destroyed". (1 mark)
+d) Create two book objects and display their details. (1 mark)
+Question 4: OOP Concepts (5 Marks)
+Answer the following questions:
+a) Differentiate between a class and an object using an example. (1 mark)
+b) Explain the difference between a constructor and a setter method. (1 mark)
+c) Why is encapsulation important in object-oriented programming? (1 mark)
+d) Differentiate between abstraction and information hiding. (1 mark)
+e) What is the purpose of a destructor in C++? (1 mark)
+
+Submission Instructions
+Students should submit their C++ source code and screenshots showing successful execution of Questions 1, 2 and 3. They should also provide written answers to Question 4.
