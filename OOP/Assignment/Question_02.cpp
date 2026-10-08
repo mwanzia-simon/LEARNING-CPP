@@ -11,20 +11,29 @@
 // d) Ensure that the salary cannot be set to a negative value. (2 marks)
 // e) Create an employee object and demonstrate how the salary can be accessed and modified using getters and setters. (2 marks)
 
-
 #include <iostream>
 using namespace std;
 
-class Employee{
+class Employee
+{
 
-    private:
-        int employeeID;
-        string employeeName;
-        int salary;
-    
+private:
+    int employeeID;
+    string employeeName;
+    int salary;
+
+public:
+    // Constuctor
+    Employee(int id, string name, int s)
+    {
+        employeeID = id;
+        employeeName = name;
+        salary = s;
     };
+};
 
-int main() {
+int main()
+{
     cout << "Hello, World!" << endl;
     return 0;
 }
