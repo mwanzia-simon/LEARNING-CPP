@@ -10,10 +10,14 @@
 // c) Implement setSalary() and getSalary() methods. (2 marks)
 // d) Ensure that the salary cannot be set to a negative value. (2 marks)
 // e) Create an employee object and demonstrate how the salary can be accessed and modified using getters and setters. (2 marks)
-// Question 3: Constructors and Destructors (5 Marks)
+
 
 #include <iostream>
 using namespace std;
+
+class Employee{
+
+};
 
 int main() {
     cout << "Hello, World!" << endl;
