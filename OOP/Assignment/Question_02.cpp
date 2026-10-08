@@ -53,6 +53,6 @@ public:
 
 int main()
 {
-    cout << "Hello, World!" << endl;
+    Employee employee1(100,"simon",20000);
     return 0;
 }
