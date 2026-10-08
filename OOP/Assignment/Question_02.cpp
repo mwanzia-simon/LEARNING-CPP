@@ -73,6 +73,10 @@ int main()
     // Getting the updated salary
     cout << "Updated salary: " << employee1.getSalary() << endl;
 
-    // Se
+    // Setting the salary to a negative number
+    employee1.setSalary(-1000);
+
+    // Getting the final salary
+    cout << "Final Salary: " << employee1.getSalary() << endl;
     return 0;
 }
