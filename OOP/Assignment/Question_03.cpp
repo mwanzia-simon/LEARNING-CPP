@@ -12,6 +12,10 @@
 #include <iostream>
 using namespace std;
 
+class Book{
+
+};
+
 int main() {
     cout << "Hello, World!" << endl;
     return 0;
