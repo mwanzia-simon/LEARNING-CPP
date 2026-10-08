@@ -46,8 +46,12 @@ public:
 
 int main()
 {
-    Student student1(101, "simon", "IT", 20);
+    Student student1(101, "simon", "Information Technology", 20);
+    Student student2(102, "Andrew", "Engineering", 20);
+    Student student3(103, "John", "computer Science", 20);
 
     student1.displayDetails();
+    student2.displayDetails();
+    student3.displayDetails();
     return 0;
 }
