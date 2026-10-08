@@ -17,7 +17,12 @@ using namespace std;
 
 class Employee{
 
-};
+    private:
+        int employeeID;
+        string employeeName;
+        int salary;
+    
+    };
 
 int main() {
     cout << "Hello, World!" << endl;
