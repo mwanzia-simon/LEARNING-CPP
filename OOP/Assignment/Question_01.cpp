@@ -12,27 +12,30 @@
 // d) Create three student objects with different details. (3 marks)
 // e) Call the displayDetails() function for each object. (1 mark)
 
-
 #include <iostream>
 using namespace std;
 
-class Student{
-    private:
-        int studentID;
-        string studentName;
-        string course;
-        int age;
+class Student
+{
+private:
+    int studentID;
+    string studentName;
+    string course;
+    int age;
 
-    public:
-
-    // Paramitized constructor 
-            Student(){
-                
-            }
-
+public:
+    // Paramitized constructor
+    Student(int id, string name, string c, int a)
+    {
+        studentID = id;
+        studentName = name;
+        course = course;
+        age = a;
+    }
 };
 
-int main() {
+int main()
+{
     cout << "Hello, World!" << endl;
     return 0;
 }
