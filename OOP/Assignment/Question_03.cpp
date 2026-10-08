@@ -18,6 +18,15 @@ private:
     int bookID;
     string bookTitle;
     string author;
+
+public:
+    // Default constructor
+    Book()
+    {
+        bookID = 0;
+        bookTitle = "Unknown";
+        author = "Unknown";
+    }
 };
 
 int main()
