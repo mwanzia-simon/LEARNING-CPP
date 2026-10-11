@@ -17,6 +17,10 @@ int main()
     {
         grade = "B";
     }
+    else if (marks >= 60 and marks <= 69)
+    {
+        grade = "C";
+    }
 
     return 0;
 }
