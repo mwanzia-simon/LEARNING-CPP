@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-double calculateAverage(){
-    
+double calculateAverage(int a, int b, int c){
+
 }
 
 int main(){
