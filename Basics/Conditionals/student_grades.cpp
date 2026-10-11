@@ -21,6 +21,14 @@ int main()
     {
         grade = "C";
     }
+    else if (marks >= 50 and marks <= 59)
+    {
+        grade = "D";
+    }
+    else if (marks >= 40 and marks <= 49)
+    {
+        grade = "E";
+    }
 
     return 0;
 }
