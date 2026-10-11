@@ -33,6 +33,12 @@ int main()
     {
         grade = "F";
     }
+    else
+    {
+        grade = "Invalid marks!";
+    }
+
+    cout << "Grade: " << grade << endl;
 
     return 0;
 }
