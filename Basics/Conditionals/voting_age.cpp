@@ -1,9 +1,12 @@
 #include <iostream>
 using namespace std;
 
+int main()
+{
+    int age;
 
-int main(){
+    cout << "Please Enter your age: ";
+    cin >> age;
 
-    
     return 0;
 }
