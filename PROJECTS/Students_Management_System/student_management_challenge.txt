@@ -1,13 +1,14 @@
-C++ MINI-PROJECT CHALLENGE
-Student Management System
-========================================
+# C++ Mini-Project Challenge: Student Management System
 
-PROJECT GOAL
+## 1. Project Goal
+
 Build a console-based C++ program that lets a user register students, view their details, and calculate their grades.
 
-MENU
+## 2. Menu
+
 When the program runs, display a menu similar to this:
 
+```text
 ===== STUDENT MANAGEMENT SYSTEM =====
 
 1. Register Student
@@ -16,72 +17,93 @@ When the program runs, display a menu similar to this:
 4. Exit
 
 Enter your choice:
+```
 
-The menu should keep appearing until the user chooses Exit.
+The menu should keep appearing until the user chooses **Exit**.
 
-REQUIREMENTS
-1. Create a class named Student.
-   - Include a student's name, registration number, and marks.
-   - Add a constructor to initialize the student's information.
+## 3. Requirements
 
-2. Register a student.
-   - Ask the user to enter the student's information.
-   - Store the information so it can be viewed later.
+### 1. Create a `Student` Class
 
-3. View student details.
-   - Display the saved student's name, registration number, and marks.
+* Include a student's name, registration number, and marks.
+* Add a constructor to initialize the student's information.
 
-4. Calculate the student's grade.
-   - Use conditional statements to determine the grade from the marks.
+### 2. Register a Student
 
-5. Build a repeating menu.
-   - Use a loop to keep showing the menu until the user chooses Exit.
+* Ask the user to enter the student's information.
+* Store the information so it can be viewed later.
 
-6. Use functions.
-   - Create separate functions for registering a student, viewing details, and calculating the grade.
+### 3. View Student Details
 
-7. Handle invalid input.
-   - Marks below 0 or above 100 should be rejected.
-   - Invalid menu choices should produce an error message.
+* Display the saved student's name, registration number, and marks.
 
-GRADING SYSTEM
-Marks       Grade
-80–100      A
-70–79       B
-60–69       C
-50–59       D
-0–49        F
+### 4. Calculate the Grade
 
-C++ CONCEPTS TO PRACTICE
-- Classes and objects
-- Constructors
-- Variables and data types
-- Functions and parameters
-- Conditional statements (if, else if, else)
-- Loops
-- Switch statements
-- Input and output
+* Use conditional statements to determine the grade from the marks.
 
-RULES
-- Use a class named Student.
-- Use at least three functions.
-- Use if, else if, and else for grading.
-- Use a loop to repeat the menu.
-- Use a switch statement to handle menu choices.
-- Validate marks and menu choices.
+### 5. Build a Repeating Menu
 
-BONUS CHALLENGE
-Allow the user to register and manage multiple students instead of only one.
-Hint: You could use a vector<Student> to store multiple student objects.
+* Use a loop to keep showing the menu until the user chooses Exit.
 
-RECOMMENDED BUILD ORDER
-1. Create the Student class with its attributes and constructor.
+### 6. Use Functions
+
+Create separate functions for:
+
+* Registering a student.
+* Viewing student details.
+* Calculating the grade.
+
+### 7. Handle Invalid Input
+
+* Marks below `0` or above `100` should be rejected.
+* Invalid menu choices should produce an error message.
+
+## 4. Grading System
+
+|  Marks | Grade |
+| -----: | :---: |
+| 80–100 |   A   |
+|  70–79 |   B   |
+|  60–69 |   C   |
+|  50–59 |   D   |
+|   0–49 |   F   |
+
+## 5. C++ Concepts to Practice
+
+* Classes and objects
+* Constructors
+* Variables and data types
+* Functions and parameters
+* Conditional statements (`if`, `else if`, `else`)
+* Loops
+* Switch statements
+* Input and output
+
+## 6. Rules
+
+* Use a class named `Student`.
+* Use at least three functions.
+* Use `if`, `else if`, and `else` for grading.
+* Use a loop to repeat the menu.
+* Use a `switch` statement to handle menu choices.
+* Validate marks and menu choices.
+
+## 7. Bonus Challenge
+
+Allow the user to register and manage **multiple students** instead of only one.
+
+**Hint:** You could use a `vector<Student>` to store multiple student objects.
+
+## 8. Recommended Build Order
+
+1. Create the `Student` class with its attributes and constructor.
 2. Write a function to register a student.
 3. Write a function to calculate the student's grade.
 4. Write a function to display student details.
 5. Connect the functions using the menu and loop.
 
-STARTING TASK
-Begin by writing only the Student class, including its attributes and constructor. Test it before building the rest of the program.
+## 9. Starting Task
+
+Begin by writing only the `Student` class, including its attributes and constructor. Test it before building the rest of the program.
 
 Do your best to solve the challenge independently before looking for a complete solution.
