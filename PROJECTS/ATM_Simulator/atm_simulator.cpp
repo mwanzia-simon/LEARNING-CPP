@@ -68,7 +68,9 @@ int main()
             account.deposit(amount);
             break;
         case 3:
-            cout << "Withdrawing money ..." << endl;
+            cout << "Enter the amount you wish to withdraw: ";
+            cin >> amount;
+            account.withdraw(amount);
             break;
         case 4:
             cout << "Exiting program ..." << endl;
