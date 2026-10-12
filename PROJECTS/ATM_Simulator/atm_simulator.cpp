@@ -51,6 +51,26 @@ int main()
 
         cout << "Enter your option: ";
         cin >> choice;
+
+        // Switch case
+        switch (choice)
+        {
+        case 1:
+            cout << "Checking balance ..." << endl;
+            break;
+        case 2:
+            cout << "Depositng money ..." << endl;
+            break;
+        case 3:
+            cout << "Withdrawing money ..." << endl;
+            break;
+        case 4:
+            cout << "Exiting program ..." << endl;
+            break;
+
+        default:
+            cout << "Invalid choice.Please try again!" << endl;
+        }
     }
 
     return 0;
