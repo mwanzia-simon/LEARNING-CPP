@@ -8,7 +8,13 @@ private:
 
 public:
     // Deposit money function
-    void deposit(double amount) {}
+    void deposit(double amount)
+    {
+        if (amount > 0)
+        {
+            balance = amount;
+        }
+    }
 
     // Withdraw money function
     void withdraw(double amount) {}
