@@ -4,7 +4,7 @@ using namespace std;
 class BankAccount
 {
 private:
-    double balance;
+    double balance = 0;
 
 public:
     // Deposit money function
