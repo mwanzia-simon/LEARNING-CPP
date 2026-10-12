@@ -1,8 +1,22 @@
 #include <iostream>
 using namespace std;
 
-class BankAccount{
+class BankAccount
+{
+private:
+    double balance;
 
+public:
+    // Deposit money function
+    void deposit(double amount) {}
+
+    // Withdraw money function
+    void withdraw(double amount) {}
+
+    // CheckBalance function
+    double checkBalance()
+    {
+    }
 };
 
 int main()
