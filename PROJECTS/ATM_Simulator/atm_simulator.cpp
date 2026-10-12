@@ -12,7 +12,7 @@ public:
     {
         if (amount > 0)
         {
-            balance = amount;
+            balance = balance + amount;
         }
     }
 
