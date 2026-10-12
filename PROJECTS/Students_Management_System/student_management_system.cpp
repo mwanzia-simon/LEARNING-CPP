@@ -23,7 +23,12 @@ public:
     }
 
     // Member function to display students details
-    void displayDetails() {}
+    void displayDetails() {
+        cout << "\n _________ Student Details __________\n";
+        cout << "Student name: " << studentName <<endl;
+        cout << "Registration Number: " << registrationNumber <<endl;
+        cout << "marks: " << marks <<endl;
+    }
 };
 
 int main()
