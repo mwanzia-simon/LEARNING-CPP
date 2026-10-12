@@ -10,7 +10,12 @@ private:
 
 public:
     // //  Member function to register a student
-    void registerStudent(string name, int regNo, int mks) {}
+    void registerStudent(string name, int regNo, int mks)
+    {
+        studentName = name;
+        registrationNumber = regNo;
+        marks = mks;
+    }
 
     // // Member function to calculate students grade
     void calculateGrade(int marks) {}
