@@ -24,8 +24,16 @@ int main()
 
     int choice;
 
-    while(true){
-        
+    while (true)
+    {
+        cout << "========= STUDENT MANAGEMENT SYSTEM ==========\n";
+        cout << "1. Register Student\n";
+        cout << "2. View Student Details\n";
+        cout << "3. Calculate Grade\n";
+        cout << "4. Exit\n";
+
+        cout << "Enter your option: ";
+        cin >> choice;
     }
 
     return 0;
