@@ -59,7 +59,9 @@ int main()
         switch (choice)
         {
         case 1:
-            cout << "Registering student ...";
+            cout << "Enter student name: ";
+            cin >> name;
+            
             break;
         case 2:
             cout << "Openning student details ...";
