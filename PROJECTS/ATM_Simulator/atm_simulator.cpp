@@ -63,7 +63,9 @@ int main()
             cout << "Balance: " << account.checkBalance() << endl;
             break;
         case 2:
-            cout << "Depositng money ..." << endl;
+            cout << "Enter the amount you wish to deposit: ";
+            cin >> amount;
+            account.deposit(amount);
             break;
         case 3:
             cout << "Withdrawing money ..." << endl;
