@@ -39,7 +39,11 @@ public:
 int main()
 {
 
+    Student student;
     int choice;
+    string name;
+    int regNo;
+    int mks;
 
     while (true)
     {
