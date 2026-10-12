@@ -1,11 +1,16 @@
 #include <iostream>
 using namespace std;
 
-class Student{
-
+class Student
+{
+private:
+    string studentName;
+    int registrationNumber;
+    int marks;
 };
 
-int main(){
+int main()
+{
 
     return 0;
 }
