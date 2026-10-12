@@ -59,7 +59,7 @@ int main()
         switch (choice)
         {
         case 1:
-            cout << "Checking balance ..." << endl;
+            cout << "Balance: " << account.checkBalance() << endl;
             break;
         case 2:
             cout << "Depositng money ..." << endl;
