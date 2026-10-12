@@ -17,7 +17,17 @@ public:
     }
 
     // Withdraw money function
-    void withdraw(double amount) {}
+    void withdraw(double amount)
+    {
+        if (amount > 0 and amount <= balance)
+        {
+            balance = balance - amount;
+        }
+        else
+        {
+            cout << "Invalid withdrawal or Insufficient Funds!" << endl;
+        }
+    }
 
     // CheckBalance function
     double checkBalance()
