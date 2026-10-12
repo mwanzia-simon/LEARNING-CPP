@@ -32,6 +32,7 @@ public:
     // CheckBalance function
     double checkBalance()
     {
+        return balance;
     }
 };
 
