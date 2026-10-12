@@ -26,7 +26,7 @@ int main()
 
     while (true)
     {
-        cout << "========= STUDENT MANAGEMENT SYSTEM ==========\n";
+        cout << "\n========= STUDENT MANAGEMENT SYSTEM ==========\n";
         cout << "1. Register Student\n";
         cout << "2. View Student Details\n";
         cout << "3. Calculate Grade\n";
@@ -34,6 +34,26 @@ int main()
 
         cout << "Enter your option: ";
         cin >> choice;
+
+        switch (choice)
+        {
+        case 1:
+            cout << "Registering student ...";
+            break;
+        case 2:
+            cout << "Openning student details ...";
+            break;
+        case 3:
+            cout << "Calculating student  grade...";
+            break;
+        case 4:
+            cout << "Exiting program  ...";
+            break;
+
+        default:
+            cout << "Invalid choice. Please try again!\n";
+            break;
+        }
     }
 
     return 0;
