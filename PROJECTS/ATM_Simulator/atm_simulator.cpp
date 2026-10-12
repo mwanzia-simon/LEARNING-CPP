@@ -13,6 +13,7 @@ public:
         if (amount > 0)
         {
             balance = balance + amount;
+            cout << "Deposit succesifull!" << endl;
         }
     }
 
@@ -22,6 +23,7 @@ public:
         if (amount > 0 and amount <= balance)
         {
             balance = balance - amount;
+            cout << "Withdraw succesifull!" << endl;
         }
         else
         {
