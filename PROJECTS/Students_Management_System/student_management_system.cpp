@@ -22,6 +22,10 @@ public:
     {
         string grade;
 
+        if (marks>10)
+        {
+        }
+
         return grade;
     }
 
