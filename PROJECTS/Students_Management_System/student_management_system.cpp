@@ -61,7 +61,13 @@ int main()
         case 1:
             cout << "Enter student name: ";
             cin >> name;
-            
+
+            cout << "Enter student registration number: ";
+            cin >> regNo;
+
+            cout << "Enter students marks: ";
+            cin >> mks;
+
             break;
         case 2:
             cout << "Openning student details ...";
