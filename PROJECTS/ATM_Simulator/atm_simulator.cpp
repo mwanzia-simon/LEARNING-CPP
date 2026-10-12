@@ -73,7 +73,7 @@ int main()
             account.withdraw(amount);
             break;
         case 4:
-            cout << "Exiting program ..." << endl;
+            cout << "Thank you for using our ATM!" << endl;
             return 0;
 
         default:
