@@ -18,16 +18,21 @@ public:
     }
 
     // // Member function to calculate students grade
-    void calculateGrade(int marks) {
+    string calculateGrade(int marks)
+    {
         string grade;
+
+        return grade;
     }
 
     // Member function to display students details
-    void displayDetails() {
+    void displayDetails()
+    {
         cout << "\n _________ Student Details __________\n";
-        cout << "Student name: " << studentName <<endl;
-        cout << "Registration Number: " << registrationNumber <<endl;
-        cout << "marks: " << marks <<endl;
+        cout << "Student name: " << studentName << endl;
+        cout << "Registration Number: " << registrationNumber << endl;
+        cout << "Marks: " << marks << endl;
+        cout << "Grade: " << calculateGrade(marks) << endl;
     }
 };
 
