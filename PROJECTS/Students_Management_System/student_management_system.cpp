@@ -18,7 +18,9 @@ public:
     }
 
     // // Member function to calculate students grade
-    void calculateGrade(int marks) {}
+    void calculateGrade(int marks) {
+        string grade;
+    }
 
     // Member function to display students details
     void displayDetails() {}
