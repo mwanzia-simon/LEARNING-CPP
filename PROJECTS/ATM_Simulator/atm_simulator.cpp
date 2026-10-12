@@ -43,6 +43,7 @@ int main()
     BankAccount account;
 
     int choice;
+    double amount;
 
     while (true)
     {
