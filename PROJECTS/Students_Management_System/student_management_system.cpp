@@ -105,6 +105,8 @@ int main()
         {
         case 1:
             cout << "Enter student name: ";
+            cin.ignore();
+            getline(cin, name);
             cin >> name;
 
             cout << "Enter student registration number: ";
