@@ -104,7 +104,7 @@ int main()
 
             break;
         case 2:
-            cout << "Openning student details ...";
+            student.displayDetails();
             break;
         case 3:
             cout << "Calculating student  grade...";
