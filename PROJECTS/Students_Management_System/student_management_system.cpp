@@ -107,7 +107,6 @@ int main()
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "Enter student name: ";
             getline(cin, name);
-            cin >> name;
 
             cout << "Enter student registration number: ";
             cin >> regNo;
