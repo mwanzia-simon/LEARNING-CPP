@@ -104,8 +104,8 @@ int main()
         switch (choice)
         {
         case 1:
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "Enter student name: ";
-            cin.ignore();
             getline(cin, name);
             cin >> name;
 
