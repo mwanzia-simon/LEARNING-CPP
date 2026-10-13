@@ -53,6 +53,10 @@ public:
         {
             grade = "F";
         }
+        else
+        {
+            cout << "Invalid marks!" << endl;
+        }
 
         return grade;
     }
