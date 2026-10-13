@@ -10,11 +10,8 @@ private:
 
 public:
     // constructor function
-    Student()
+    Student() : studentName(""), registrationNumber(0), marks(0)
     {
-        studentName = "";
-        registrationNumber = 0;
-        marks = 0;
     }
     // //  Member function to register a student
     void registerStudent(string name, int regNo, int mks)
