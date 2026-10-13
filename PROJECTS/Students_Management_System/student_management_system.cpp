@@ -107,7 +107,9 @@ int main()
             student.displayDetails();
             break;
         case 3:
-            cout << "Calculating student  grade...";
+            cout << "Enter the marks: ";
+            cin >> mks;
+            cout << "GRADE: " << student.calculateGrade(mks) << endl;
             break;
         case 4:
             cout << "Exiting program  ...";
