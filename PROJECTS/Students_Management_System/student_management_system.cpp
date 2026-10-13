@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+#include <limits>
 class Student
 {
 private:
