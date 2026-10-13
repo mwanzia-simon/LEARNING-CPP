@@ -72,6 +72,8 @@ int main()
             cout << "Enter students marks: ";
             cin >> mks;
 
+            student.registerStudent(name,regNo,mks);
+
             break;
         case 2:
             cout << "Openning student details ...";
