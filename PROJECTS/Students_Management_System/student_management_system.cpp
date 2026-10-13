@@ -15,7 +15,7 @@ public:
         studentName = name;
         registrationNumber = regNo;
 
-        if (marks < 0 and marks > 100)
+        if (marks < 0 or marks > 100)
         {
             cout << "Invalid marks!" << endl;
             marks = 0;
