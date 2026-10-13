@@ -25,6 +25,7 @@ public:
 
             marks = mks;
         }
+        cout << "Student registred succesifully!" << endl;
     }
 
     // // Member function to calculate students grade
