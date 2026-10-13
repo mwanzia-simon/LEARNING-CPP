@@ -56,6 +56,7 @@ public:
         }
         else
         {
+            grade = "__";
             cout << "Invalid marks!" << endl;
         }
 
