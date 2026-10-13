@@ -37,27 +37,27 @@ public:
     }
 
     // // Member function to calculate students grade
-    string calculateGrade(int marks)
+    string calculateGrade(int mks)
     {
         string grade;
 
-        if (marks >= 80 and marks <= 100)
+        if (mks >= 80 and mks <= 100)
         {
             grade = "A";
         }
-        else if (marks >= 70 and marks <= 79)
+        else if (mks >= 70 and mks <= 79)
         {
             grade = "B";
         }
-        else if (marks >= 60 and marks <= 69)
+        else if (mks >= 60 and mks <= 69)
         {
             grade = "C";
         }
-        else if (marks >= 50 and marks <= 59)
+        else if (mks >= 50 and mks <= 59)
         {
             grade = "D";
         }
-        else if (marks >= 0 and marks <= 49)
+        else if (mks >= 0 and mks <= 49)
         {
             grade = "F";
         }
