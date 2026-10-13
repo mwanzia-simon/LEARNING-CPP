@@ -14,7 +14,17 @@ public:
     {
         studentName = name;
         registrationNumber = regNo;
-        marks = mks;
+
+        if (marks < 0 and marks > 100)
+        {
+            cout << "Invalid marks!" << endl;
+            marks = 0;
+        }
+        else
+        {
+
+            marks = mks;
+        }
     }
 
     // // Member function to calculate students grade
@@ -22,7 +32,7 @@ public:
     {
         string grade;
 
-        if (marks>10)
+        if (marks > 10)
         {
         }
 
@@ -72,7 +82,7 @@ int main()
             cout << "Enter students marks: ";
             cin >> mks;
 
-            student.registerStudent(name,regNo,mks);
+            student.registerStudent(name, regNo, mks);
 
             break;
         case 2:
