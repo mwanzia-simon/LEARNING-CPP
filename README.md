@@ -2,7 +2,7 @@
 
 Welcome to my C++ learning repository!
 
-![banner_image](./docs/learning_cpp.jpg)
+![banner_image](./docs/learning-cpp.jpg)
 
 I'm using this repository to document my journey as I learn **C++**, mainly focusing on programming fundamentals and **Object-Oriented Programming (OOP)**.
 
