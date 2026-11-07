@@ -41,6 +41,27 @@ public:
     }
 };
 
+class Lecturer : public Person
+{
+private:
+    string employeeNumber;
+
+public:
+    Lecturer(string n, int a, string emp)
+        : Person(n, a)
+    {
+
+        employeeNumber = emp;
+    }
+
+    void displayLecturer()
+    {
+        displayInfo();
+        cout << "Employee Number: "
+             << employeeNumber << endl;
+    }
+};
+
 int main()
 {
 
