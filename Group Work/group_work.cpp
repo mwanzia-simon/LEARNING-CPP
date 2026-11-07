@@ -20,6 +20,26 @@ public:
         cout << "Age: " << age << endl;
     }
 };
+class Student : public Person
+{
+private:
+    string registrationNumber;
+
+public:
+    Student(string n, int a, string reg)
+        : Person(n, a)
+    {
+
+        registrationNumber = reg;
+    }
+
+    void displayStudent()
+    {
+        displayInfo();
+        cout << "Registration Number: "
+             << registrationNumber << endl;
+    }
+};
 
 int main()
 {
