@@ -86,5 +86,14 @@ public:
 int main()
 {
 
+    // creating a student object
+    Student student1("simon", 21, "STU001");
+
+    // Creating a lecturer object
+    Lecturer lecturer1("John", 35, "LEC001");
+
+    // creating a course object
+    Course course1("Object Oriented programming", lecturer1);
+
     return 0;
 }
