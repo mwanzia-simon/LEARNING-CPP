@@ -99,5 +99,9 @@ int main()
     cout << "--- STUDENT INFORMATION ---" << endl;
     student1.displayStudent();
 
+    // Displaying the course details
+    cout << "\n --- COURSE INFORMATION ---" << endl;
+    course1.displayCourse();
+
     return 0;
 }
