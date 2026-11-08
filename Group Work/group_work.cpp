@@ -95,5 +95,9 @@ int main()
     // creating a course object
     Course course1("Object Oriented programming", lecturer1);
 
+    // Displaying the students information
+    cout << "--- STUDENT INFORMATION ---" << endl;
+    student1.displayStudent();
+
     return 0;
 }
