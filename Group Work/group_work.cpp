@@ -62,6 +62,27 @@ public:
     }
 };
 
+class Course
+{
+private:
+    string courseName;
+    Lecturer lecturer;
+
+public:
+    Course(string cName, Lecturer l)
+        : courseName(cName), lecturer(l)
+    {
+    }
+
+    void displayCourse()
+    {
+        cout << "\nCourse: " << courseName << endl;
+
+        cout << "Lecturer Information:" << endl;
+        lecturer.displayLecturer();
+    }
+};
+
 int main()
 {
 
