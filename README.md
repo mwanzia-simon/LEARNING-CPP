@@ -1,6 +1,6 @@
 # C++ Learning Journey 
 
-Welcome to my C++ learning repository!
+Welcome to my C++ learning repository
 
 ![banner_image](./docs/learning-cpp.jpg)
 
