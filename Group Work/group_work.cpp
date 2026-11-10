@@ -92,7 +92,6 @@ int main()
     // Creating a lecturer object
     Lecturer lecturer1("John", 35, "LEC001");
 
-    // creating a course object
     Course course1("Object Oriented programming", lecturer1);
 
     cout << "--- STUDENT INFORMATION ---" << endl;
