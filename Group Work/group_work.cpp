@@ -88,7 +88,6 @@ int main()
     Student student1("simon", 21, "STU002");
 
     Lecturer lecturer1("John", 35, "LEC002");
-
     Course course1("Object Oriented programming", lecturer1);
 
     cout << "--- STUDENT INFORMATION ---" << endl;
