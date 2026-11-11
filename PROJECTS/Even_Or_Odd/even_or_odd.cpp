@@ -14,7 +14,7 @@ int main()
     }
     else
     {
-        cout << number << " is an odd number." << endl;
+        cout << number << " Is an odd number." << endl;
     }
 
     return 0;
