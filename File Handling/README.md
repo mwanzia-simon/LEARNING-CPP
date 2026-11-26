@@ -17,9 +17,9 @@ This directory contains my practical exercises and implementations as I learn fi
 
 ## Practical Exercises
 
-| File | Description |
-|---|---|
-| 01-writing-to-file.cpp | Writing data into a file |
+| File | Description | Preview |
+|---|---|---|
+| 01-writing-to-file.cpp | Writing data into a file | [01-writing-to-file.cpp ](./01-writing-to-file.cpp) |
 | 02-reading-from-file.cpp | Reading data from a file |
 | 03-appending-to-file.cpp | Appending data to a file |
 | 04-file-modes.cpp | Working with file modes |
