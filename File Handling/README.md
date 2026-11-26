@@ -17,14 +17,14 @@ This directory contains my practical exercises and implementations as I learn fi
 
 ## Practical Exercises
 
-| File | Description | Preview |
-|---|---|---|
-| 01-writing-to-file.cpp | Writing data into a file | [01-writing-to-file.cpp ](./01-writing-to-file.cpp) |
-| 02-reading-from-file.cpp | Reading data from a file |
-| 03-appending-to-file.cpp | Appending data to a file |
-| 04-file-modes.cpp | Working with file modes |
-| 05-file-existence.cpp | Checking file availability |
-| 06-student-records.cpp | Managing student records |
+| File                     | Description                | Preview                                                   |
+| ------------------------ | -------------------------- | --------------------------------------------------------- |
+| 01-writing-to-file.cpp   | Writing data into a file   | [01-writing-to-file.cpp ](./01-writing-to-file.cpp)       |
+| 02-reading-from-file.cpp | Reading data from a file   | [02-reading-from-file.cpp](./02-reading%20-from-file.cpp) |
+| 03-appending-to-file.cpp | Appending data to a file   | [03-appending-to-file.cpp](./03-appending-ro-file.cpp)    |
+| 04-file-modes.cpp        | Working with file modes    | [04-file-modes.cpp](./04-file-modes.cpp)                  |
+| 05-file-existence.cpp    | Checking file availability | [05-file-existence.cpp ](./05-file-existence.cpp)         |
+| 06-student-records.cpp   | Managing student records   | [ 06-student-records.cpp](./06-student-records.cpp)       |
 
 ## Technologies
 
